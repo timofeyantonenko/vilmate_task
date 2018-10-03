@@ -1,9 +1,9 @@
 # TEST TASK VILMATE
 
-####0. Total Spent time ~ 6hr
+#### 0. Total Spent time ~ 6hr
 
 ___
-####1. Create ELK docker
+#### 1. Create ELK docker
 Based on the official Docker images from Elastic:
 
 * [elasticsearch](https://github.com/elastic/elasticsearch-docker)
@@ -25,7 +25,7 @@ By default, the stack exposes the following ports:
 * 5601: Kibana
 ___
 
-####2. Get audio podcast of youtube video
+#### 2. Get audio podcast of youtube video
 
 My example: 
 ```buildoutcfg
@@ -36,7 +36,7 @@ https://www.youtube.com/watch?v=ycPr5-27vSI
 Check `download_video_and_get_audio_from_it.py`
 ___
 
-####3. Convert it to mp3 and split for Watson API
+#### 3. Convert it to mp3 and split for Watson API
 
 Check 
  - `mp4tomp3.py`
@@ -44,17 +44,17 @@ Check
  - `transcription.py`
 ___
 
-####4. Get most relevant words
+#### 4. Get most relevant words
 
 Check `text_processing.py`
 
-####5. Load it to ES
+#### 5. Load it to ES
 
 Check `data_to_es.py`
 
 ___
 
-####Author: 
+#### Author: 
 
 *Timofey Antonenko*
 
