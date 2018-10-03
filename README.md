@@ -28,29 +28,29 @@ ___
 #### 2. Get audio podcast of youtube video
 
 My example: 
-```buildoutcfg
+```
 Joe Rogan Experience #1169 - Elon Musk
 https://www.youtube.com/watch?v=ycPr5-27vSI
 ```
 
-Check `download_video_and_get_audio_from_it.py`
+Check `src/download_video_and_get_audio_from_it.py`
 ___
 
 #### 3. Convert it to mp3 and split for Watson API
 
 Check 
- - `mp4tomp3.py`
- - `mp3_splitting.py`
- - `transcription.py`
+ - `src/mp4tomp3.py`
+ - `src/mp3_splitting.py`
+ - `src/transcription.py`
 ___
 
 #### 4. Get most relevant words
 
-Check `text_processing.py`
+Check `src/text_processing.py`
 
 #### 5. Load it to ES
 
-Check `data_to_es.py`
+Check `src/data_to_es.py`
 
 ___
 
